@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "HSL_pc104") (type "KiCad") (uri "C:/Users/will/Documents/KiCad/lib/HSL/HSL_pc104.pretty") (options "") (descr ""))
+)
