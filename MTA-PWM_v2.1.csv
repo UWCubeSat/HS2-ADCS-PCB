@@ -1,0 +1,7 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1,C2","2","10u","","","","Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm",""
+"J1,J2","2","Conn_02x26_Odd_Even","","","","HSL_pc104:pc104-PinSocket_2x26_P2.54mm_Vertical",""
+"J3,J4","2","2053380002","","","","molex-picolock-header:CONN_2053380000-SD_02_MOL","https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
+"J5","1","532610271","","","","molex-532610271:CONN_532610001-SD_02_MOL","https://www.molex.com/en-us/products/part-detail-pdf/532610271?display=pdf"
+"U1","1","A3909GLYTR-T","","","","A3909GLNTR-T:A3909GLYTR-T_ALM","A3909GLYTR-T"
+"U2","1","BD6222HFP-TR","","","","BD6222HFP-TR:HRP7_ROM","BD6222HFP-TR"
