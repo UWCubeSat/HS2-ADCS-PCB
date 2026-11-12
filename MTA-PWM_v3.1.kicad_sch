@@ -1736,6 +1736,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DRV8231ADSG_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV8231ADSG"
+				(at 7.62 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8231a.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "H-Bridge brushed DC motor driver driver, 3.7Apk,  4.5..33Vm, 600mOhm shunt, integrated current mirror, PWM input, WSON-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "half bridge driver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*WSON*1EP*2x2mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRV8231ADSG_1_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DRV8231ADSG_1_1_1"
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "IPROPI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2057,7 +2318,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+			(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2101,7 +2362,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.5mm*"
+			(property "ki_fp_filters" "*WSON*1EP*2x2mm*P0.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3895,7 +4156,7 @@
 	)
 	(text "MT2"
 		(exclude_from_sim no)
-		(at 237.49 83.82 0)
+		(at 207.01 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3915,7 +4176,7 @@
 	)
 	(text "MTR"
 		(exclude_from_sim no)
-		(at 236.22 133.35 0)
+		(at 207.01 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3925,7 +4186,7 @@
 	)
 	(text "MT1"
 		(exclude_from_sim no)
-		(at 238.76 38.1 0)
+		(at 209.55 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4413,7 +4674,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 36.83) (xy 203.2 36.83)
+			(xy 171.45 36.83) (xy 173.99 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4483,7 +4744,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 82.55) (xy 203.2 82.55)
+			(xy 171.45 82.55) (xy 172.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4743,7 +5004,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 85.09) (xy 203.2 85.09)
+			(xy 171.45 85.09) (xy 172.72 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 132.08) (xy 203.2 132.08)
+			(xy 171.45 132.08) (xy 173.99 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5143,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 39.37) (xy 203.2 39.37)
+			(xy 171.45 39.37) (xy 173.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5223,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 134.62) (xy 203.2 134.62)
+			(xy 171.45 134.62) (xy 173.99 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6018,7 +6279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 85.09 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6097,7 +6358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 85.09 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6144,7 +6405,7 @@
 	)
 	(symbol
 		(lib_id "molex-532610271:532610271")
-		(at 203.2 132.08 0)
+		(at 173.99 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6155,7 +6416,7 @@
 		(fields_autoplaced yes)
 		(uuid "18c07caa-4312-4676-89c8-26dc329130dd")
 		(property "Reference" "J5"
-			(at 217.17 132.0799 0)
+			(at 187.96 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6166,7 +6427,7 @@
 			)
 		)
 		(property "Value" "532610271"
-			(at 217.17 134.6199 0)
+			(at 187.96 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6177,7 +6438,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
-			(at 203.2 132.08 0)
+			(at 173.99 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6189,7 +6450,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/532610271?display=pdf"
-			(at 203.2 132.08 0)
+			(at 173.99 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 132.08 0)
+			(at 173.99 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6228,7 +6489,7 @@
 	)
 	(symbol
 		(lib_id "molex-picolock-header:2053380002")
-		(at 203.2 82.55 0)
+		(at 172.72 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6239,7 +6500,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c7fc3a9-0f61-47d9-a428-babb56745ea3")
 		(property "Reference" "J4"
-			(at 217.17 82.5499 0)
+			(at 186.69 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6250,7 +6511,7 @@
 			)
 		)
 		(property "Value" "2053380002"
-			(at 217.17 85.0899 0)
+			(at 186.69 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6261,7 +6522,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Pico-Lock_205338-0002_1x02-1MP_P2.00mm_Horizontal"
-			(at 203.2 82.55 0)
+			(at 172.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6273,7 +6534,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
-			(at 203.2 82.55 0)
+			(at 172.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6285,7 +6546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 82.55 0)
+			(at 172.72 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6499,7 +6760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6779,6 +7040,7 @@
 		)
 	)
 	(symbol
+		(lib_name "DRV8231ADSG_1")
 		(lib_id "Driver_Motor:DRV8231ADSG")
 		(at 161.29 41.91 0)
 		(unit 1)
@@ -6812,7 +7074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7431,7 +7693,7 @@
 	)
 	(symbol
 		(lib_id "molex-picolock-header:2053380002")
-		(at 203.2 36.83 0)
+		(at 173.99 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7442,7 +7704,7 @@
 		(fields_autoplaced yes)
 		(uuid "68722e80-9ce8-4ac6-8199-dc4140c61cfc")
 		(property "Reference" "J3"
-			(at 217.17 36.8299 0)
+			(at 187.96 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7453,7 +7715,7 @@
 			)
 		)
 		(property "Value" "2053380002"
-			(at 217.17 39.3699 0)
+			(at 187.96 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7464,7 +7726,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Pico-Lock_205338-0002_1x02-1MP_P2.00mm_Horizontal"
-			(at 203.2 36.83 0)
+			(at 173.99 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7476,7 +7738,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2053380002?display=pdf"
-			(at 203.2 36.83 0)
+			(at 173.99 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +7750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 36.83 0)
+			(at 173.99 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7841,7 +8103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706a37a8-0e49-4012-bc51-4bf934fa154b")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 128.27 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7905,7 +8167,7 @@
 		(instances
 			(project "MTA-PWM_v3.1"
 				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8027,7 +8289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
 			(at 85.09 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8809,7 +9071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 161.29 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9148,7 +9410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TI_SO-PowerPAD-8_ThermalVias"
+		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
 			(at 161.29 158.75 0)
 			(hide yes)
 			(show_name no)
