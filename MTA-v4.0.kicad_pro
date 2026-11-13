@@ -60,64 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|110796509|120135000|43a599a1-9957-4d2a-96d8-56c53b1a4840|867d395e-9d12-40b5-af16-f5a4c5051725",
-          ""
-        ],
-        [
-          "courtyards_overlap|114353034|53104999|43a599a1-9957-4d2a-96d8-56c53b1a4840|83943066-0add-4a5c-93d2-16d9842f1245",
-          ""
-        ],
-        [
-          "lib_footprint_issues|141639971|91309000|68e54463-4bc4-46a3-a4bf-5f4fa35e0bdf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|142139971|57808999|b992f875-feb7-4842-bd0b-426bcc4a39a8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|144464972|121559000|09193fbc-0417-4a32-93a8-d28b536e04cf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|167595772|50719398|77563c19-b896-4a7f-abee-89eb82f1c775|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|173889971|81308998|a63e732d-2b9c-4fe5-8bfc-6b274e3af400|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|178050121|122219400|8e364d14-1bba-4d35-8d2a-f1bba9e6bc26|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|111035225|49759000|792915dc-a8d1-45ac-a1fc-a29aa4d172c6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|111035226|123418998|867d395e-9d12-40b5-af16-f5a4c5051725|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|128388471|90144998|4f2f7a69-c711-4f85-8cc2-d390dd7ed278|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|198889971|77118999|d5e55e08-25c7-444e-8142-88d4eb2e181d|0187e8d1-3cfc-4c82-8f45-1e17b42c9479",
-          ""
-        ],
-        [
-          "via_dangling|135889970|80558999|c6db9fbf-59b5-4f0e-84d3-585d8e53c8e9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "via_dangling|135889971|79559000|fc843a59-953d-4988-a22e-426051610c13|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -195,7 +138,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -211,7 +154,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": true,
+          "td_ontrackend": false,
           "td_onvia": true
         }
       ],
@@ -244,7 +187,7 @@
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
-          "td_maxlen": 2.0,
+          "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
@@ -319,7 +262,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1612900|292100|e5303f12-3ce4-48e2-b2bc-029c7f447071|00000000-0000-0000-0000-000000000000|/2ab70fe9-08ad-4479-950a-d6e4587ab3bf|/2ab70fe9-08ad-4479-950a-d6e4587ab3bf|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1714500|393700|1a278fbc-63e0-49e5-94c2-783531686bf3|00000000-0000-0000-0000-000000000000|/2ab70fe9-08ad-4479-950a-d6e4587ab3bf|/2ab70fe9-08ad-4479-950a-d6e4587ab3bf|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1714500|812800|a2fd9b50-5148-48c3-b571-256e1fcf9ede|00000000-0000-0000-0000-000000000000|/2ab70fe9-08ad-4479-950a-d6e4587ab3bf|/2ab70fe9-08ad-4479-950a-d6e4587ab3bf|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -547,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MTA-PWM_v3.kicad_pro",
+    "filename": "MTA-v4.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -570,13 +526,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "5V_PERM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -709,9 +658,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "MTA-PWM_v3.kicad_sch",
+        "filename": "MTA-v4.0.kicad_sch",
         "name": "Root",
-        "uuid": "8114d6b5-c058-4094-9533-bb1ec7de29de"
+        "uuid": "2ab70fe9-08ad-4479-950a-d6e4587ab3bf"
       }
     ],
     "used_designators": "",
@@ -719,7 +668,7 @@
   },
   "sheets": [
     [
-      "8114d6b5-c058-4094-9533-bb1ec7de29de",
+      "2ab70fe9-08ad-4479-950a-d6e4587ab3bf",
       "Root"
     ]
   ],
