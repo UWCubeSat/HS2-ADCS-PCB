@@ -1,0 +1,229 @@
+(footprint "MT_CS0002-G2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.125 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e73b462c-a649-4586-a353-6598758520ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MT_CR0002-G2"
+		(at 0.125 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0b38254c-b055-42a4-a738-8bf864bd6718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "616eb3b6-2c78-45aa-9e95-7bcfd323486e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dc57412-bdf7-493c-a411-9604ee1408f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -23.5 -2.75)
+		(end -21.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f8ea9b9a-d8f1-4df2-b7cf-97890fb5db0b")
+	)
+	(fp_rect
+		(start -21.5 -5.25)
+		(end 23.75 5.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9888c2e2-8eb2-487f-830b-6a441df36d1a")
+	)
+	(fp_line
+		(start -24.375 -3.75)
+		(end -24.375 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e255456e-fc86-40c6-9c38-280bb940a5c6")
+	)
+	(fp_line
+		(start -24.375 6.25)
+		(end -20.875 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1eab13bd-c788-46b9-af2c-a5903a47bd4a")
+	)
+	(fp_line
+		(start -22.375 -6.25)
+		(end -22.375 -3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "75a02088-6776-4926-befa-9773851c8851")
+	)
+	(fp_line
+		(start -22.375 -3.75)
+		(end -24.375 -3.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "eda41243-826f-42b3-824f-8f33ae947cb8")
+	)
+	(fp_line
+		(start -20.875 6.25)
+		(end 24.625 6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "063ad389-95c1-4ccb-814b-6399b8de74bc")
+	)
+	(fp_line
+		(start 24.625 -6.25)
+		(end -22.375 -6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2c10d26-962b-443a-9745-c268b21d69a4")
+	)
+	(fp_line
+		(start 24.625 6.25)
+		(end 24.625 -6.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0081ecc-9288-4e9d-9369-b0b1292988b1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.125 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a2b1a1d-4334-4c13-8c89-ecf4884f13e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "c35b46fa-1762-4ebc-8367-0cd38167ebb2")
+		(pts
+			(xy 21.75 3.5) (xy -19.25 3.5)
+		)
+		(height 0)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "41"
+			(at 1.25 2.35 0)
+			(layer "Dwgs.User")
+			(uuid "c35b46fa-1762-4ebc-8367-0cd38167ebb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -19.25 -3.5)
+		(size 2.54 2.54)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f40ca560-6c76-4afa-8f24-1a9adaa7bbc7")
+	)
+	(pad "" np_thru_hole circle
+		(at -19.25 3.5)
+		(size 2.54 2.54)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "5a6886bf-b5af-46e5-9d3d-ce921684c04a")
+	)
+	(pad "" np_thru_hole circle
+		(at 21.75 -3.5)
+		(size 2.54 2.54)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4b744061-d0e4-4ccb-90e0-52bb9d12755b")
+	)
+	(pad "" np_thru_hole circle
+		(at 21.75 3.5)
+		(size 2.54 2.54)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b656c661-b1c5-4b16-bb08-ef720049cda2")
+	)
+	(embedded_fonts no)
+)

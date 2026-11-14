@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MT_CS0002") (type "KiCad") (uri "${KIPRJMOD}/lib/MT_CS0002") (options "") (descr ""))
+	(lib (name "MTR_EXA") (type "KiCad") (uri "${KIPRJMOD}/lib/MTR_EXA") (options "") (descr ""))
+)
