@@ -1420,7 +1420,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "43a599a1-9957-4d2a-96d8-56c53b1a4840")
-		(at 110.875 118.37 180)
+		(at 111.035 118.339 180)
 		(descr "Through hole straight socket strip, 2x26, 2.54mm pitch, double rows (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x26 2.54mm double row")
 		(property "Reference" "J2"
@@ -18720,7 +18720,7 @@
 	)
 	(segment
 		(start 114.533997 101.708997)
-		(end 113.415 100.59)
+		(end 113.575 100.559)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS5_CH")
@@ -18808,7 +18808,7 @@
 	)
 	(segment
 		(start 114.773998 99.408998)
-		(end 113.415 98.05)
+		(end 113.575 98.019)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "SUN_SENS3_CH")
@@ -19024,7 +19024,7 @@
 	)
 	(segment
 		(start 114.655 94.27)
-		(end 113.415 95.51)
+		(end 113.575 95.479)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS1_CH")
@@ -19088,7 +19088,7 @@
 	)
 	(segment
 		(start 112.025001 101.74)
-		(end 110.875 100.589999)
+		(end 111.035 100.558999)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "SUN_SENS6_CH")
@@ -19280,7 +19280,7 @@
 	)
 	(segment
 		(start 112.195 99.37)
-		(end 110.875 98.05)
+		(end 111.035 98.019)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS4_CH")
@@ -19464,7 +19464,7 @@
 	)
 	(segment
 		(start 112.025 96.66)
-		(end 110.875 95.51)
+		(end 111.035 95.479)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS2_CH")
