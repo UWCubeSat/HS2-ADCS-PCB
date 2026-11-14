@@ -2049,145 +2049,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -2748,6 +2609,12 @@
 		(uuid "42ac7e5d-1969-45c1-9955-7e73c9b4584f")
 	)
 	(junction
+		(at 58.42 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59a6f6d2-3f87-4b56-95f6-9712ba73fc9c")
+	)
+	(junction
 		(at 25.4 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2772,12 +2639,6 @@
 		(uuid "9b8eec94-41ee-42f0-9639-6fc4ee157961")
 	)
 	(junction
-		(at 58.42 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0978f06-d5e1-492f-82ee-3d6082042b98")
-	)
-	(junction
 		(at 25.4 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2794,12 +2655,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3c2cfeb-945a-4f99-866b-f59b741b1afd")
-	)
-	(junction
-		(at 58.42 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de9137b4-04dc-418d-b817-4a24d21c48c7")
 	)
 	(junction
 		(at 76.2 162.56)
@@ -2950,6 +2805,10 @@
 		(uuid "66e52cb6-5060-4d57-b4f6-ad9f1fc00670")
 	)
 	(no_connect
+		(at 44.45 80.01)
+		(uuid "6f33b62e-8d81-4b94-96bc-4d035e925bd7")
+	)
+	(no_connect
 		(at 44.45 29.21)
 		(uuid "71968f8f-74b3-4175-a7e9-d2835de1d4d7")
 	)
@@ -2974,6 +2833,10 @@
 		(uuid "8dd61c1f-5629-437d-8bb8-539f9e1d9c79")
 	)
 	(no_connect
+		(at 57.15 85.09)
+		(uuid "9050222c-745f-4c21-8efb-0b0df84f310a")
+	)
+	(no_connect
 		(at 44.45 157.48)
 		(uuid "90a4a691-a45f-4b2d-b88a-d9a6774e243d")
 	)
@@ -2994,10 +2857,6 @@
 		(uuid "9ab96a8a-3899-43b3-bc29-758a24900f68")
 	)
 	(no_connect
-		(at 44.45 80.01)
-		(uuid "a0820409-ab26-4fcb-8835-a2d93eb90591")
-	)
-	(no_connect
 		(at 151.13 57.15)
 		(uuid "a381b419-6261-4a87-8239-9f0c045f9696")
 	)
@@ -3012,6 +2871,10 @@
 	(no_connect
 		(at 57.15 72.39)
 		(uuid "af3838b7-bc79-47f2-bb37-09c11e7a70e2")
+	)
+	(no_connect
+		(at 44.45 129.54)
+		(uuid "b0ed4f27-684e-4682-90f0-feef8a6f89c0")
 	)
 	(no_connect
 		(at 57.15 34.29)
@@ -3054,6 +2917,10 @@
 		(uuid "ccdfc15e-ee19-4e03-b9ef-d69cefc8ffd3")
 	)
 	(no_connect
+		(at 57.15 129.54)
+		(uuid "cdaa785f-ca99-4d7a-8c89-0a8d7e956a1a")
+	)
+	(no_connect
 		(at 44.45 144.78)
 		(uuid "cdc7a02d-67bb-411d-adcd-e540e1f18c55")
 	)
@@ -3064,6 +2931,10 @@
 	(no_connect
 		(at 57.15 116.84)
 		(uuid "d0eed505-dea2-4b1e-9204-82fbe101e0de")
+	)
+	(no_connect
+		(at 44.45 85.09)
+		(uuid "d3ccef04-b68a-42ba-abc0-0c145e2b1017")
 	)
 	(no_connect
 		(at 57.15 142.24)
@@ -3141,16 +3012,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 128.27) (xy 58.42 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d1ebef-5b3d-4f41-b293-f3e8243a097d")
-	)
-	(wire
-		(pts
 			(xy 40.64 49.53) (xy 44.45 49.53)
 		)
 		(stroke
@@ -3158,16 +3019,6 @@
 			(type default)
 		)
 		(uuid "16a707a0-6dbc-4ee5-a94a-e18cfe16ca46")
-	)
-	(wire
-		(pts
-			(xy 58.42 129.54) (xy 57.15 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "176635e3-c492-42ce-8471-babdb92ad58d")
 	)
 	(wire
 		(pts
@@ -3198,16 +3049,6 @@
 			(type default)
 		)
 		(uuid "1a35225b-9bcd-422c-8ee7-967c77ace6ab")
-	)
-	(wire
-		(pts
-			(xy 58.42 85.09) (xy 57.15 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b630527-4659-4345-8039-679614af8f64")
 	)
 	(wire
 		(pts
@@ -3288,16 +3129,6 @@
 			(type default)
 		)
 		(uuid "2f6f15e8-cb30-424d-97a9-d9fdd178288b")
-	)
-	(wire
-		(pts
-			(xy 43.18 128.27) (xy 43.18 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "339f540a-839f-4034-bd6a-d5f7d1301ecc")
 	)
 	(wire
 		(pts
@@ -3511,26 +3342,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 83.82) (xy 43.18 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7081a454-ddfa-4c53-8fb5-a8ffa60bcc59")
-	)
-	(wire
-		(pts
-			(xy 43.18 85.09) (xy 44.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72ac6eee-840c-439f-83c5-5c203ece54e2")
-	)
-	(wire
-		(pts
 			(xy 58.42 163.83) (xy 58.42 165.1)
 		)
 		(stroke
@@ -3621,16 +3432,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 90.17) (xy 57.15 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8df1ead8-1cf0-4467-9f90-0e9cfd8b29ef")
-	)
-	(wire
-		(pts
 			(xy 76.2 49.53) (xy 76.2 67.31)
 		)
 		(stroke
@@ -3651,16 +3452,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 58.42 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a099f61-ad80-4a7a-9bc0-c068ba8842de")
-	)
-	(wire
-		(pts
 			(xy 25.4 137.16) (xy 25.4 134.62)
 		)
 		(stroke
@@ -3668,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "9d8dda4d-3a1f-4479-8fca-e25c047d45d7")
+	)
+	(wire
+		(pts
+			(xy 57.15 90.17) (xy 58.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4345fb5-a0e7-4ef0-9882-9a1466483579")
 	)
 	(wire
 		(pts
@@ -3728,26 +3529,6 @@
 			(type default)
 		)
 		(uuid "b11a4652-99e5-4aab-a967-c00c97472e62")
-	)
-	(wire
-		(pts
-			(xy 58.42 83.82) (xy 58.42 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b458c739-ec21-47ae-841a-e0b742e2c424")
-	)
-	(wire
-		(pts
-			(xy 43.18 129.54) (xy 44.45 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba181602-d62e-4fe8-95f1-8c2f7f2d204b")
 	)
 	(wire
 		(pts
@@ -4358,84 +4139,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 43.18 83.82 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0337ddc5-73be-46fc-bbd1-64ee36697a6b")
-		(property "Reference" "#PWR032"
-			(at 43.18 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 39.878 80.772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 43.18 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b16fb6d-5f37-40cd-a7dd-bbf016ea7bce")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(reference "#PWR032")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5864,162 +5567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 59.69 85.09 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91d43d1b-8e1b-4be2-a3cc-7959fa36cf3c")
-		(property "Reference" "#FLG02"
-			(at 61.595 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 63.5 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e93f3247-c713-4c00-8cdc-105100b61b62")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 58.42 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a41c2710-5bf1-4bd3-8e3a-5c5b6a48c373")
-		(property "Reference" "#PWR031"
-			(at 58.42 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 61.722 80.772 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94f933e4-34e6-4c0d-ac8b-b360279b4984")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x26_Row_Letter_First")
 		(at 49.53 132.08 0)
 		(unit 1)
@@ -6486,83 +6033,6 @@
 			(project "ChargeController3.0"
 				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/f2f9d970-19c9-4c0d-bc5e-5fec47e84338"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 58.42 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c80920db-5fa4-4e8d-90ea-292f2ace7a84")
-		(property "Reference" "#PWR029"
-			(at 58.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 61.722 125.222 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 58.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bd3dabf-c610-408e-85f5-32c0a7b41def")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7264,84 +6734,6 @@
 			(project "MTA-PWM_v4"
 				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 43.18 128.27 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eab239d5-12e3-441f-8cd6-1ae17b091d2a")
-		(property "Reference" "#PWR030"
-			(at 43.18 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 39.878 125.222 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 43.18 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bafa4b39-33bc-40e2-a31c-708327d6834c")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
