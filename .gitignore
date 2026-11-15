@@ -96,3 +96,5 @@ __pycache__/
 **/.history/
 
 !lib/**/*.st*p
+mfg_outputs/**
+**/*reports.txt

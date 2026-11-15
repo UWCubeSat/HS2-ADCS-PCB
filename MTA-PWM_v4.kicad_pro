@@ -554,10 +554,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "mfg_outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mfg_outputs/MTA-PWM_v4.step",
       "svg": "",
       "vrml": ""
     },
