@@ -94,3 +94,5 @@ __pycache__/
 !sheets/
 !sheets/**.history/
 **/.history/
+
+!lib/**/*.st*p

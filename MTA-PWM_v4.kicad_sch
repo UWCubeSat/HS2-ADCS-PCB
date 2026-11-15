@@ -4807,7 +4807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MT_CS0002:MT_CS0002-G2R"
+		(property "Footprint" "MT_CS0002:MT_CS0002-G2"
 			(at 158.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4861,7 +4861,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4889,7 +4889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MT_CS0002:MT_CS0002-G2"
+		(property "Footprint" "MT_CS0002:MT_CS0002-G2R"
 			(at 158.75 46.99 0)
 			(hide yes)
 			(show_name no)
