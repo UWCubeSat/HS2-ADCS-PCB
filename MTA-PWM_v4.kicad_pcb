@@ -1589,7 +1589,11 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "43a599a1-9957-4d2a-96d8-56c53b1a4840")
+<<<<<<< HEAD
 		(at 111.035 118.401 180)
+=======
+		(at 111.035 118.339 180)
+>>>>>>> 0cdc0ff923ad6db555a269edf19edcc0d063d4b5
 		(descr "Through hole straight socket strip, 2x26, 2.54mm pitch, double rows (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x26 2.54mm double row")
 		(property "Reference" "J2"
@@ -19782,6 +19786,7 @@
 		(uuid "fc4949f8-3eef-43f4-9d25-215c1c30e0a6")
 	)
 	(segment
+<<<<<<< HEAD
 		(start 114.693998 101.739998)
 		(end 113.544 100.59)
 		(width 0.2)
@@ -19792,6 +19797,10 @@
 	(segment
 		(start 113.544 100.59)
 		(end 113.415 100.59)
+=======
+		(start 114.533997 101.708997)
+		(end 113.575 100.559)
+>>>>>>> 0cdc0ff923ad6db555a269edf19edcc0d063d4b5
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS5_CH")
@@ -19895,7 +19904,7 @@
 	)
 	(segment
 		(start 114.773998 99.408998)
-		(end 113.415 98.05)
+		(end 113.575 98.019)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "SUN_SENS3_CH")
@@ -20135,7 +20144,7 @@
 	)
 	(segment
 		(start 114.655 94.27)
-		(end 113.415 95.51)
+		(end 113.575 95.479)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS1_CH")
@@ -20206,8 +20215,13 @@
 		(uuid "a51eb38e-10bb-424f-b4d5-e69ba3cf5e30")
 	)
 	(segment
+<<<<<<< HEAD
 		(start 129.425 100.37)
 		(end 127.175 100.37)
+=======
+		(start 112.025001 101.74)
+		(end 111.035 100.558999)
+>>>>>>> 0cdc0ff923ad6db555a269edf19edcc0d063d4b5
 		(width 0.2)
 		(layer "F.Cu")
 		(net "SUN_SENS6_CH")
@@ -20391,7 +20405,7 @@
 	)
 	(segment
 		(start 112.195 99.37)
-		(end 110.875 98.05)
+		(end 111.035 98.019)
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS4_CH")
@@ -20595,7 +20609,43 @@
 		(width 0.2)
 		(layer "In2.Cu")
 		(net "SUN_SENS2_CH")
+<<<<<<< HEAD
 		(uuid "f95ab7d5-cdc3-4b37-9c52-417934fc87d4")
+=======
+		(uuid "9f2f3617-5e64-4a04-9cc3-ce0b05967ce5")
+	)
+	(segment
+		(start 126.575 97.77)
+		(end 122.006889 97.77)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net "SUN_SENS2_CH")
+		(uuid "a5ad8c38-0e0b-4bd1-aef1-c6407d4155e6")
+	)
+	(segment
+		(start 113.891346 96.66)
+		(end 112.025 96.66)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net "SUN_SENS2_CH")
+		(uuid "cf655e1f-9b5b-4eeb-b78e-98d5dae5eed8")
+	)
+	(segment
+		(start 112.025 96.66)
+		(end 111.035 95.479)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net "SUN_SENS2_CH")
+		(uuid "d0d7b19c-6b52-455b-bf18-54ee93b6a15a")
+	)
+	(segment
+		(start 120.865887 96.628998)
+		(end 113.922348 96.628998)
+		(width 0.2)
+		(layer "In2.Cu")
+		(net "SUN_SENS2_CH")
+		(uuid "d8375b61-9806-4e61-9b03-442ea71687f5")
+>>>>>>> 0cdc0ff923ad6db555a269edf19edcc0d063d4b5
 	)
 	(segment
 		(start 124.175 90)
