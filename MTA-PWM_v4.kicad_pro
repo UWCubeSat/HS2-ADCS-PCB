@@ -78,14 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|110796509|120135000|43a599a1-9957-4d2a-96d8-56c53b1a4840|867d395e-9d12-40b5-af16-f5a4c5051725",
-          ""
-        ],
-        [
-          "courtyards_overlap|114353034|53104999|43a599a1-9957-4d2a-96d8-56c53b1a4840|83943066-0add-4a5c-93d2-16d9842f1245",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|111035225|49759000|792915dc-a8d1-45ac-a1fc-a29aa4d172c6|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -698,7 +690,7 @@
         "uuid": "8114d6b5-c058-4094-9533-bb1ec7de29de"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR1-61,C1,C3-8,D1,H1-16,J3-14,R1-12,TP1-13,U1-6",
+    "used_designators": "#FLG1-5,#PWR1-64,C1,C3-8,D1,H1-16,J3-14,R1-12,TP1-15,U1-6",
     "variants": []
   },
   "sheets": [
@@ -723,15 +715,15 @@
       "panel_ss_3-off-axis"
     ],
     [
-      "5ce50888-85ac-4b08-994c-96da8be2d076",
+      "be6c7817-fc75-4c14-950b-ee3ea21f059a",
       "discrete_ss_1-yplus"
     ],
     [
-      "accc6b38-1978-4963-ab4b-d16f41836a2b",
+      "228d1dcb-48f3-4a1a-9711-4be3d668a639",
       "discrete_ss_2-yminus"
     ],
     [
-      "56bff2c6-d436-4181-a16a-73d37f831ac1",
+      "2af74450-1d2b-48e7-acbf-31e10cfa0d2c",
       "discrete_ss_3-zplus"
     ]
   ],

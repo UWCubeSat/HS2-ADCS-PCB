@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "56d407d5-4d4f-4384-aacc-41c3b6b17a58")
+	(uuid "f171974f-4e87-4aaa-ae43-03d92ce2d41b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -600,189 +600,102 @@
 		)
 	)
 	(junction
-		(at 99.06 69.85)
+		(at 110.49 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12ebd3fa-7c41-4dd3-876b-768e8601efef")
+		(uuid "bee2e73b-5064-474d-9f81-0f5e795bc07f")
 	)
 	(junction
-		(at 99.06 67.31)
+		(at 110.49 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9da25963-57a9-470c-8ddc-38e51523e2ea")
+		(uuid "f682ff36-a671-4610-ba32-d0b554e7a1c8")
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 93.98 67.31)
+			(xy 110.49 83.82) (xy 110.49 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15e31a03-49b5-41d1-823f-12c56b20302a")
+		(uuid "00da47b8-c218-49f5-a11e-7bf4240e9f02")
 	)
 	(wire
 		(pts
-			(xy 99.06 66.04) (xy 99.06 67.31)
+			(xy 110.49 87.63) (xy 105.41 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ff0a10f-5736-49f3-b8b8-08cd55e02d41")
+		(uuid "0244f658-c38e-4299-9d7b-00efc0f8d0ca")
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 99.06 69.85)
+			(xy 110.49 85.09) (xy 105.41 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37bdbc9f-1ca9-4563-94d6-4f856a8fc5b6")
+		(uuid "65105c66-d841-4eea-b73a-7253b8ba2e11")
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 99.06 69.85)
+			(xy 111.76 87.63) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d749a55-8441-4357-87a2-8acbb7b7bd07")
+		(uuid "c0048eca-9ca4-4d48-824b-1eb3eb644dc7")
 	)
 	(wire
 		(pts
-			(xy 99.06 69.85) (xy 93.98 69.85)
+			(xy 110.49 88.9) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad946266-8fe8-4a41-ac2f-f8d80db7ca10")
+		(uuid "ca32ea2e-b61e-42a0-86c2-dd71e5f03ad1")
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 99.06 67.31)
+			(xy 111.76 85.09) (xy 110.49 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfc5cd3f-4e6b-4e6e-a4df-e43dc4862280")
+		(uuid "cf5263ea-99ce-49dc-a0b2-f0112cdd3572")
 	)
 	(hierarchical_label "ss_temp"
 		(shape input)
-		(at 100.33 69.85 0)
+		(at 111.76 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "43107922-53e9-4b5c-9dc1-a1cd047d6f09")
+		(uuid "5f678f13-c58e-4eb5-bf52-fa5bec8a121d")
 	)
 	(hierarchical_label "ss_sig"
 		(shape input)
-		(at 100.33 67.31 0)
+		(at 111.76 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "95029807-37bb-4980-be4d-b2661a062f19")
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 93.98 64.77 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5107c842-79c7-4085-8de5-f1fe15b061d2")
-		(property "Reference" "#PWR042"
-			(at 93.98 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 93.98 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 93.98 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a6bab52-27a2-4b3d-9615-b452bd67af12")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/56bff2c6-d436-4181-a16a-73d37f831ac1"
-					(reference "#PWR052")
-					(unit 1)
-				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/5ce50888-85ac-4b08-994c-96da8be2d076"
-					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/accc6b38-1978-4963-ab4b-d16f41836a2b"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "6f501f1e-af97-4544-a228-475067e6abd2")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 88.9 69.85 180)
+		(at 100.33 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -790,9 +703,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a7338389-ec75-48c3-a6ea-cb85b75e3499")
+		(uuid "36364e69-8ed4-4255-a3d0-34e67609f371")
 		(property "Reference" "J9"
-			(at 86.36 69.8501 0)
+			(at 97.79 87.6301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -803,7 +716,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 86.36 67.3101 0)
+			(at 97.79 85.0901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -814,7 +727,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Pico-Lock_205338-0004_1x04-1MP_P2.00mm_Horizontal"
-			(at 88.9 69.85 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -825,7 +738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 69.85 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -836,7 +749,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 88.9 69.85 0)
+			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -847,37 +760,210 @@
 			)
 		)
 		(pin "4"
-			(uuid "768229d8-35fb-47ba-81a1-531fcb8c35d7")
+			(uuid "468dab20-585b-4317-a76d-307e6d493cb4")
 		)
 		(pin "1"
-			(uuid "e171c7db-f3b6-428d-a3ae-990f6bd3fa64")
+			(uuid "7ca4bc9e-dc93-4cb1-b4f5-e5fc8ce4da51")
 		)
 		(pin "2"
-			(uuid "85f3caee-236c-4075-95ac-c256a9ae91eb")
+			(uuid "872012dd-f39f-49a9-9275-10c59b2b5c7f")
 		)
 		(pin "3"
-			(uuid "7473ca7d-786a-4393-b9ba-82b111983b89")
+			(uuid "9626a7e6-61c7-4b4c-b583-cd7857a2e9eb")
 		)
 		(instances
 			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/56bff2c6-d436-4181-a16a-73d37f831ac1"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/228d1dcb-48f3-4a1a-9711-4be3d668a639"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/2af74450-1d2b-48e7-acbf-31e10cfa0d2c"
 					(reference "J11")
 					(unit 1)
 				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/5ce50888-85ac-4b08-994c-96da8be2d076"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/be6c7817-fc75-4c14-950b-ee3ea21f059a"
 					(reference "J9")
-					(unit 1)
-				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/accc6b38-1978-4963-ab4b-d16f41836a2b"
-					(reference "J10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 93.98 72.39 0)
+		(lib_id "Connector:TestPoint")
+		(at 110.49 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5bd4feb6-a0ca-4806-9d05-8c001fcc70fd")
+		(property "Reference" "TP11"
+			(at 113.03 93.4721 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 90.9321 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 105.41 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b00565d2-2492-4c67-af76-6eb8094b0957")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/228d1dcb-48f3-4a1a-9711-4be3d668a639"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/2af74450-1d2b-48e7-acbf-31e10cfa0d2c"
+					(reference "TP15")
+					(unit 1)
+				)
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/be6c7817-fc75-4c14-950b-ee3ea21f059a"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "773db2fa-45b7-4361-b85f-026a00359a79")
+		(property "Reference" "TP10"
+			(at 113.03 79.2479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 81.7879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82745886-03a4-4a9b-a147-7dca52fc4b22")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/228d1dcb-48f3-4a1a-9711-4be3d668a639"
+					(reference "TP12")
+					(unit 1)
+				)
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/2af74450-1d2b-48e7-acbf-31e10cfa0d2c"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/be6c7817-fc75-4c14-950b-ee3ea21f059a"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 105.41 82.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -887,9 +973,96 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b669d1e6-1945-4113-8437-11bf8a6daaa3")
-		(property "Reference" "#PWR01"
-			(at 93.98 78.74 0)
+		(uuid "9b6de868-2aac-494c-847a-1dd3f14f0443")
+		(property "Reference" "#PWR062"
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 105.41 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6e69a04-17f6-4081-a6ab-8030b6ac5f62")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/228d1dcb-48f3-4a1a-9711-4be3d668a639"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/2af74450-1d2b-48e7-acbf-31e10cfa0d2c"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/be6c7817-fc75-4c14-950b-ee3ea21f059a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a40bc4c4-cee2-4443-8128-990d40e69fa2")
+		(property "Reference" "#PWR022"
+			(at 105.41 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,7 +1073,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 77.47 0)
+			(at 105.41 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -910,7 +1083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 72.39 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -921,7 +1094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 72.39 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -932,7 +1105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 72.39 0)
+			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -943,193 +1116,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a898b9ad-08ed-466f-a8ea-18752b7f7f56")
+			(uuid "da5addb1-0cb5-4705-8f73-a7feea6327b2")
 		)
 		(instances
 			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/56bff2c6-d436-4181-a16a-73d37f831ac1"
-					(reference "#PWR053")
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/228d1dcb-48f3-4a1a-9711-4be3d668a639"
+					(reference "#PWR029")
 					(unit 1)
 				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/5ce50888-85ac-4b08-994c-96da8be2d076"
-					(reference "#PWR01")
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/2af74450-1d2b-48e7-acbf-31e10cfa0d2c"
+					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/accc6b38-1978-4963-ab4b-d16f41836a2b"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 66.04 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d15f54c2-03c5-4d92-830d-ed97cf5ce1d1")
-		(property "Reference" "TP4"
-			(at 101.6 61.4679 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 101.6 64.0079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
-			(at 93.98 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1f52caf-607a-446b-b461-f7360caeb663")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/56bff2c6-d436-4181-a16a-73d37f831ac1"
-					(reference "TP8")
-					(unit 1)
-				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/5ce50888-85ac-4b08-994c-96da8be2d076"
-					(reference "TP4")
-					(unit 1)
-				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/accc6b38-1978-4963-ab4b-d16f41836a2b"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 99.06 71.12 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc2358fa-5158-409f-a157-3f51e4aff37b")
-		(property "Reference" "TP5"
-			(at 101.6 75.6921 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 101.6 73.1521 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
-			(at 93.98 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 99.06 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3dd46149-8533-4f22-9181-04313c472942")
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/56bff2c6-d436-4181-a16a-73d37f831ac1"
-					(reference "TP9")
-					(unit 1)
-				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/5ce50888-85ac-4b08-994c-96da8be2d076"
-					(reference "TP5")
-					(unit 1)
-				)
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/accc6b38-1978-4963-ab4b-d16f41836a2b"
-					(reference "TP7")
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de/be6c7817-fc75-4c14-950b-ee3ea21f059a"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
