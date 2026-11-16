@@ -1289,6 +1289,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:OPA333xxDBV")
 		(at 130.81 106.68 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1296,10 +1297,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01f011c9-f6a4-4aeb-be7f-5b9fe2a7fe64")
 		(property "Reference" "U4"
-			(at 143.51 100.2598 0)
+			(at 143.51 113.1002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1309,7 +1309,7 @@
 			)
 		)
 		(property "Value" "OPA333xxDBV"
-			(at 143.51 102.7998 0)
+			(at 143.51 110.5602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1319,7 +1319,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 128.27 111.76 0)
+			(at 128.27 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1331,7 +1331,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa333.pdf"
-			(at 130.81 101.6 0)
+			(at 130.81 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
