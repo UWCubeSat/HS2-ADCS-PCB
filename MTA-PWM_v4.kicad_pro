@@ -557,7 +557,7 @@
       "plot": "mfg_outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mfg_outputs/MTA-PWM_v4.step",
+      "step": "mfg_outputs/MTA-PWM_v4.stl",
       "svg": "",
       "vrml": ""
     },
