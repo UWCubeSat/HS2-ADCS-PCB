@@ -2560,7 +2560,7 @@
 	)
 	(text "solar panel integrated sun sensor - unamped pure photodiodes with software temp sensing"
 		(exclude_from_sim no)
-		(at 233.68 31.75 0)
+		(at 158.75 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2570,7 +2570,7 @@
 	)
 	(text "discrete sun sensors - already amplified and with their own temp sensors"
 		(exclude_from_sim no)
-		(at 220.98 80.01 0)
+		(at 146.05 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2729,7 +2729,7 @@
 		(uuid "1b8df43a-3437-4e56-87ff-ee5cf7ba3215")
 	)
 	(no_connect
-		(at 153.67 46.99)
+		(at 201.93 43.18)
 		(uuid "1d2c553a-9316-43bd-af53-c1f38dca509a")
 	)
 	(no_connect
@@ -2749,7 +2749,7 @@
 		(uuid "2f2967c8-67bc-425c-bdf1-3fc0670568df")
 	)
 	(no_connect
-		(at 215.9 102.87)
+		(at 140.97 158.75)
 		(uuid "307b2ad8-95a1-4abb-874a-1cbe447f8553")
 	)
 	(no_connect
@@ -2781,7 +2781,7 @@
 		(uuid "53b85959-2e65-43ec-8c0f-45f374c45907")
 	)
 	(no_connect
-		(at 153.67 55.88)
+		(at 201.93 55.88)
 		(uuid "5630ff41-c11e-4512-b82b-d03f5cc4912f")
 	)
 	(no_connect
@@ -2797,7 +2797,7 @@
 		(uuid "63d65d43-f4db-4e9a-9fa3-502470fad095")
 	)
 	(no_connect
-		(at 153.67 49.53)
+		(at 201.93 45.72)
 		(uuid "65dd024a-cbf8-4edf-8334-483caf408b8f")
 	)
 	(no_connect
@@ -2845,7 +2845,7 @@
 		(uuid "92ef8c0f-bcfd-4454-a510-f84eb7d456be")
 	)
 	(no_connect
-		(at 215.9 91.44)
+		(at 140.97 147.32)
 		(uuid "95d2ad62-e210-47d6-9e82-0f1d475ba8e1")
 	)
 	(no_connect
@@ -2857,15 +2857,15 @@
 		(uuid "9ab96a8a-3899-43b3-bc29-758a24900f68")
 	)
 	(no_connect
-		(at 153.67 58.42)
+		(at 201.93 58.42)
 		(uuid "a381b419-6261-4a87-8239-9f0c045f9696")
 	)
 	(no_connect
-		(at 153.67 40.64)
+		(at 201.93 33.02)
 		(uuid "a947e2ee-34c3-4b33-9d70-a453b52329bf")
 	)
 	(no_connect
-		(at 153.67 38.1)
+		(at 201.93 30.48)
 		(uuid "ae4c5766-de0f-4216-bd0d-6763ce6abf6c")
 	)
 	(no_connect
@@ -2941,7 +2941,7 @@
 		(uuid "d3d0a500-1c72-4c44-9083-168a1ab5ed88")
 	)
 	(no_connect
-		(at 215.9 115.57)
+		(at 140.97 171.45)
 		(uuid "d68488da-fb63-4abe-93f4-4b711a6a6d65")
 	)
 	(no_connect
@@ -3710,9 +3710,57 @@
 		)
 		(uuid "fb2e62ae-6c40-4e19-94d9-d8a01e36bb65")
 	)
+	(global_label "ADCS_GPIO_2"
+		(shape input)
+		(at 161.29 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0313e0d4-08ca-493c-9bff-f1cca19f8a3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.1492 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ADCS_GPIO_3"
+		(shape input)
+		(at 161.29 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c37553e-881a-4f82-bd6b-c664d5ac4d36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.1492 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SUN_SENS3_CH"
 		(shape input)
-		(at 215.9 69.85 180)
+		(at 140.97 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3722,7 +3770,7 @@
 		)
 		(uuid "182f4832-7056-416a-aa8a-5bf1f4614b73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3055 69.85 0)
+			(at 123.3755 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3784,7 @@
 	)
 	(global_label "SUN_SENS2_CH"
 		(shape input)
-		(at 215.9 55.88 180)
+		(at 140.97 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3746,7 +3794,31 @@
 		)
 		(uuid "23a44d54-e3f6-4079-a226-62ee2410c8e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3055 55.88 0)
+			(at 123.3755 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ADCS_PWM_2"
+		(shape input)
+		(at 161.29 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34ef3706-d1f8-4b57-bd98-2f66b7b8437a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8467 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3784,7 +3856,7 @@
 	)
 	(global_label "SUN_SENS5_CH"
 		(shape input)
-		(at 215.9 100.33 180)
+		(at 140.97 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3794,7 +3866,7 @@
 		)
 		(uuid "5d41833e-20f0-4f04-8069-8536ab282134")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3055 100.33 0)
+			(at 123.3755 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3832,7 +3904,7 @@
 	)
 	(global_label "SUN_SENS1_CH"
 		(shape input)
-		(at 215.9 43.18 180)
+		(at 140.97 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3842,7 +3914,7 @@
 		)
 		(uuid "65d5208e-340e-4fcb-807d-63ca1051ffc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3055 43.18 0)
+			(at 123.3755 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3856,7 +3928,7 @@
 	)
 	(global_label "SUN_SENS4_CH"
 		(shape input)
-		(at 215.9 88.9 180)
+		(at 140.97 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3866,7 +3938,7 @@
 		)
 		(uuid "6ecedb48-d416-41be-a793-c4555a22a908")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3055 88.9 0)
+			(at 123.3755 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +4000,7 @@
 	)
 	(global_label "ADCS_PWM_3"
 		(shape input)
-		(at 43.18 63.5 180)
+		(at 43.18 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3938,7 +4010,7 @@
 		)
 		(uuid "7d03072f-4335-4a25-8359-e8d1f162244c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.0392 63.5 0)
+			(at 27.7367 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +4096,7 @@
 	)
 	(global_label "ADCS_GPIO_3"
 		(shape input)
-		(at 43.18 66.04 180)
+		(at 43.18 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4034,7 +4106,31 @@
 		)
 		(uuid "a1706cd3-888d-4b7a-8f8a-0e511da272aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7367 66.04 0)
+			(at 28.0392 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ADCS_PWM_3"
+		(shape input)
+		(at 161.29 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1b221c4-ed86-4bc0-8cfe-5dad6c2224da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8467 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4072,6 +4168,30 @@
 	)
 	(global_label "ADCS_GPIO_1"
 		(shape input)
+		(at 161.29 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afd2aeeb-a33b-48e1-8eff-776df2a1c83f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.1492 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ADCS_GPIO_1"
+		(shape input)
 		(at 43.18 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4094,9 +4214,33 @@
 			)
 		)
 	)
+	(global_label "ADCS_PWM_1"
+		(shape input)
+		(at 161.29 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbd0cb57-cfc9-4a78-b9f3-26db01bbb49c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8467 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SUN_SENS6_CH"
 		(shape input)
-		(at 215.9 113.03 180)
+		(at 140.97 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4106,7 +4250,7 @@
 		)
 		(uuid "e7a25381-bdc1-42e4-9ce9-a2fe2005991d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.3055 113.03 0)
+			(at 123.3755 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4144,7 +4288,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 158.75 55.88 0)
+		(at 207.01 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4155,7 +4299,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f39fb75-5003-444c-9173-1ebe16266c3b")
 		(property "Reference" "Mtz1"
-			(at 161.29 55.8799 0)
+			(at 209.55 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4166,7 +4310,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 161.29 58.4199 0)
+			(at 209.55 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4177,7 +4321,7 @@
 			)
 		)
 		(property "Footprint" "MTR_EXA:MTR_EXA"
-			(at 158.75 55.88 0)
+			(at 207.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,7 +4332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 55.88 0)
+			(at 207.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4199,7 +4343,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 55.88 0)
+			(at 207.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4919,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 158.75 38.1 0)
+		(at 207.01 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4786,7 +4930,7 @@
 		(fields_autoplaced yes)
 		(uuid "49576db5-16b4-4679-a3b1-df1243a5e48b")
 		(property "Reference" "Mtx1"
-			(at 161.29 38.0999 0)
+			(at 209.55 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4797,7 +4941,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 161.29 40.6399 0)
+			(at 209.55 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4808,7 +4952,7 @@
 			)
 		)
 		(property "Footprint" "MT_CS0002:MT_CS0002-G2"
-			(at 158.75 38.1 0)
+			(at 207.01 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4819,7 +4963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 38.1 0)
+			(at 207.01 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +4974,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 38.1 0)
+			(at 207.01 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4857,7 +5001,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 158.75 46.99 0)
+		(at 207.01 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4868,7 +5012,7 @@
 		(fields_autoplaced yes)
 		(uuid "515ebc47-d958-4dcb-bfdd-ca4aa51b194c")
 		(property "Reference" "Mty1"
-			(at 161.29 46.9899 0)
+			(at 209.55 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4879,7 +5023,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 161.29 49.5299 0)
+			(at 209.55 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4890,7 +5034,7 @@
 			)
 		)
 		(property "Footprint" "MT_CS0002:MT_CS0002-G2R"
-			(at 158.75 46.99 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4901,7 +5045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 46.99 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4912,7 +5056,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 158.75 46.99 0)
+			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,6 +5238,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 184.15 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b4f9732-7d87-440e-9a8a-69224ddfcccb")
+		(property "Reference" "J4"
+			(at 186.69 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 186.69 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Pico-Lock_205338-0002_1x02-1MP_P2.00mm_Horizontal"
+			(at 184.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dcf0e965-4f7b-42a2-9a19-e04f9158a923")
+		)
+		(pin "1"
+			(uuid "724e559a-e55b-4c82-9007-d78d8c1b45bc")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 62.23 91.44 270)
 		(unit 1)
@@ -5167,6 +5393,83 @@
 			(project "MTA-PWM_v4"
 				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 118.11 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65e4094d-fcbe-4bb4-a61a-3c7750cc8968")
+		(property "Reference" "#PWR034"
+			(at 118.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 118.11 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 118.11 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e9ec821-5013-4de7-8004-e48ab1d9af15")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -5490,6 +5793,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 184.15 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75a4b83d-4c0e-48e2-8291-c0304fe10a3a")
+		(property "Reference" "J5"
+			(at 186.69 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 186.69 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
+			(at 184.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed70a38e-896c-44be-9a39-17408f53d4ec")
+		)
+		(pin "1"
+			(uuid "cae42a88-5ce0-4977-9222-72435362cb68")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 60.96 165.1 0)
 		(unit 1)
@@ -5561,6 +5946,88 @@
 			(project "MTA-PWM_v4"
 				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a55ec896-e99a-4192-820f-1c24a28d906e")
+		(property "Reference" "C2"
+			(at 121.92 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 121.92 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+			(at 119.0752 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1571e2b8-fc50-43f8-aa67-27950ece4a66")
+		)
+		(pin "2"
+			(uuid "1917cb71-827e-4348-a07f-74a637223a6f")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5797,6 +6264,84 @@
 			(project "ChargeController3.0"
 				(path "/a54826c2-d365-4450-b7a8-71945dba02c0/f2f9d970-19c9-4c0d-bc5e-5fec47e84338"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34e8f37-121b-4f07-b694-12d834179ff8")
+		(property "Reference" "#PWR035"
+			(at 118.11 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "390321f7-9a15-413f-9070-622e1dfc0471")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6111,6 +6656,88 @@
 			(project "MTA-PWM_v4"
 				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 184.15 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d186a4a1-a690-4053-9c0d-f75d184e2a83")
+		(property "Reference" "J3"
+			(at 186.69 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 186.69 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Pico-Lock_205338-0002_1x02-1MP_P2.00mm_Horizontal"
+			(at 184.15 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.15 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59142a71-dda6-42fd-b7ff-633a4d5e1f95")
+		)
+		(pin "1"
+			(uuid "ce069be7-d9cf-4c5b-b1cc-74f01d378baf")
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6895,8 +7522,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 34.29)
-		(size 17.78 11.43)
+		(at 161.29 29.21)
+		(size 17.78 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6910,8 +7537,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "1443e1f4-8306-461e-b002-5d6db02e6cf9")
-		(property "Sheetname" "MT_driver"
-			(at 128.27 33.5784 0)
+		(property "Sheetname" "MT_driver_x"
+			(at 161.29 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6922,7 +7549,7 @@
 			)
 		)
 		(property "Sheetfile" "MT_driver.kicad_sch"
-			(at 128.27 46.3046 0)
+			(at 161.29 36.1446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6930,6 +7557,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "in_1" input
+			(at 161.29 30.48 180)
+			(uuid "1a5ef443-6ca9-47fa-8bb0-1914f34498a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "in_2" input
+			(at 161.29 33.02 180)
+			(uuid "cdaa1360-b4c6-4156-a7f6-a78072a81e1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out_1" input
+			(at 179.07 30.48 0)
+			(uuid "95d05b5f-8a7d-42ee-8954-506f4fda5771")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "out_2" input
+			(at 179.07 33.02 0)
+			(uuid "f901c28a-c99d-4270-be99-a66bdf643e63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -6941,7 +7608,93 @@
 		)
 	)
 	(sheet
-		(at 215.9 99.06)
+		(at 161.29 41.91)
+		(size 17.78 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18437489-37de-45e6-a80a-8865eaba44d0")
+		(property "Sheetname" "MT_driver_y"
+			(at 161.29 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MT_driver.kicad_sch"
+			(at 161.29 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "in_1" input
+			(at 161.29 43.18 180)
+			(uuid "4be9b5b8-a43f-46cc-af4c-517d2e046285")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "in_2" input
+			(at 161.29 45.72 180)
+			(uuid "18d31fb3-966f-408a-8861-23c75d977ef3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out_1" input
+			(at 179.07 43.18 0)
+			(uuid "7b18986a-1b1d-426f-aa70-d56b0175eb89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "out_2" input
+			(at 179.07 45.72 0)
+			(uuid "ed8a8906-c521-4bea-8e37-c156c4db7537")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 154.94)
 		(size 21.59 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6957,7 +7710,7 @@
 		)
 		(uuid "228d1dcb-48f3-4a1a-9711-4be3d668a639")
 		(property "Sheetname" "discrete_ss_2-yminus"
-			(at 215.9 98.3484 0)
+			(at 140.97 154.2284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6968,7 +7721,7 @@
 			)
 		)
 		(property "Sheetfile" "discrete_ss.kicad_sch"
-			(at 215.9 105.7406 0)
+			(at 140.97 161.6206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6979,7 +7732,7 @@
 			)
 		)
 		(pin "ss_sig" input
-			(at 215.9 100.33 180)
+			(at 140.97 156.21 180)
 			(uuid "4490604e-2427-43f9-a798-2fe3d543a178")
 			(effects
 				(font
@@ -6989,8 +7742,130 @@
 			)
 		)
 		(pin "ss_temp" input
-			(at 215.9 102.87 180)
+			(at 140.97 158.75 180)
 			(uuid "d663265d-07e7-4ae4-a379-4237ea7b94cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 167.64)
+		(size 21.59 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2af74450-1d2b-48e7-acbf-31e10cfa0d2c")
+		(property "Sheetname" "discrete_ss_3-zplus"
+			(at 140.97 166.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "discrete_ss.kicad_sch"
+			(at 140.97 174.3206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ss_sig" input
+			(at 140.97 168.91 180)
+			(uuid "a99ba8a1-0ac4-41ad-840b-2bd2edd2a62e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ss_temp" input
+			(at 140.97 171.45 180)
+			(uuid "67089c0b-3e61-4510-a94d-aeaa608e19cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 123.19)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "43e4173e-9536-45fa-936b-6be9dad84220")
+		(property "Sheetname" "panel_ss_3-off-axis"
+			(at 140.97 122.4784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panel_ss_1.kicad_sch"
+			(at 140.97 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ss_sig" input
+			(at 140.97 125.73 180)
+			(uuid "005dcf40-e31c-4866-af71-e75e55e0c56a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,129 +7882,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 111.76)
-		(size 21.59 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2af74450-1d2b-48e7-acbf-31e10cfa0d2c")
-		(property "Sheetname" "discrete_ss_3-zplus"
-			(at 215.9 111.0484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "discrete_ss.kicad_sch"
-			(at 215.9 118.4406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ss_sig" input
-			(at 215.9 113.03 180)
-			(uuid "a99ba8a1-0ac4-41ad-840b-2bd2edd2a62e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ss_temp" input
-			(at 215.9 115.57 180)
-			(uuid "67089c0b-3e61-4510-a94d-aeaa608e19cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 67.31)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "43e4173e-9536-45fa-936b-6be9dad84220")
-		(property "Sheetname" "panel_ss_3-off-axis"
-			(at 215.9 66.5984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "panel_ss_1.kicad_sch"
-			(at 215.9 72.9746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ss_sig" input
-			(at 215.9 69.85 180)
-			(uuid "005dcf40-e31c-4866-af71-e75e55e0c56a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 53.34)
+		(at 140.97 109.22)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7145,7 +7898,7 @@
 		)
 		(uuid "7e30e3ef-f33e-4d03-bdf6-b931b1d24a59")
 		(property "Sheetname" "panel_ss_2-xminus"
-			(at 215.9 52.6284 0)
+			(at 140.97 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7156,7 +7909,7 @@
 			)
 		)
 		(property "Sheetfile" "panel_ss_1.kicad_sch"
-			(at 215.9 59.0046 0)
+			(at 140.97 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7167,74 +7920,8 @@
 			)
 		)
 		(pin "ss_sig" input
-			(at 215.9 55.88 180)
+			(at 140.97 111.76 180)
 			(uuid "00d0a182-6d91-4906-81b5-091ed4d999ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "MTA-PWM_v4"
-				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 215.9 86.36)
-		(size 21.59 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "be6c7817-fc75-4c14-950b-ee3ea21f059a")
-		(property "Sheetname" "discrete_ss_1-yplus"
-			(at 215.9 85.6484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "discrete_ss.kicad_sch"
-			(at 215.9 93.2946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ss_sig" input
-			(at 215.9 88.9 180)
-			(uuid "fb5c5935-c5a5-4e23-8ce5-96026c629eeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ss_temp" input
-			(at 215.9 91.44 180)
-			(uuid "04f46a5b-a524-4b55-b7b9-f0fbdf61e1ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7938,159 @@
 		)
 	)
 	(sheet
-		(at 215.9 40.64)
+		(at 161.29 54.61)
+		(size 17.78 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bdab3092-4df9-4490-ad28-fb1abf098438")
+		(property "Sheetname" "MT_driver_z"
+			(at 161.29 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MT_driver.kicad_sch"
+			(at 161.29 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "in_1" input
+			(at 161.29 55.88 180)
+			(uuid "2266aed1-0d87-4b8f-a4ba-cfab4c79bffc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "in_2" input
+			(at 161.29 58.42 180)
+			(uuid "5caee71c-79e9-427a-bf63-8a0ed6513e2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out_1" input
+			(at 179.07 55.88 0)
+			(uuid "e9dfe7ef-e3fe-4a59-9ad1-266a0aec0055")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "out_2" input
+			(at 179.07 58.42 0)
+			(uuid "55174593-c83c-4137-87a2-0c39551e093f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 142.24)
+		(size 21.59 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be6c7817-fc75-4c14-950b-ee3ea21f059a")
+		(property "Sheetname" "discrete_ss_1-yplus"
+			(at 140.97 141.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "discrete_ss.kicad_sch"
+			(at 140.97 149.1746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ss_sig" input
+			(at 140.97 144.78 180)
+			(uuid "fb5c5935-c5a5-4e23-8ce5-96026c629eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ss_temp" input
+			(at 140.97 147.32 180)
+			(uuid "04f46a5b-a524-4b55-b7b9-f0fbdf61e1ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MTA-PWM_v4"
+				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 96.52)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7267,7 +8106,7 @@
 		)
 		(uuid "c6df210f-c7e2-45da-9506-0366f9d15638")
 		(property "Sheetname" "panel_ss_1-xplus"
-			(at 215.9 39.9284 0)
+			(at 140.97 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7278,7 +8117,7 @@
 			)
 		)
 		(property "Sheetfile" "panel_ss_1.kicad_sch"
-			(at 215.9 46.3046 0)
+			(at 140.97 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7289,7 +8128,7 @@
 			)
 		)
 		(pin "ss_sig" input
-			(at 215.9 43.18 180)
+			(at 140.97 99.06 180)
 			(uuid "ee57f65e-2dfd-4ee8-bfb3-0ac71f3685ea")
 			(effects
 				(font
@@ -7301,7 +8140,7 @@
 		(instances
 			(project "MTA-PWM_v4"
 				(path "/8114d6b5-c058-4094-9533-bb1ec7de29de"
-					(page "3")
+					(page "5")
 				)
 			)
 		)

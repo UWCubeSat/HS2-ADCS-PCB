@@ -681,7 +681,7 @@
         "uuid": "8114d6b5-c058-4094-9533-bb1ec7de29de"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR1-64,C1,C3-8,D1,H1-16,J3-14,R1-12,TP1-15,U1-6",
+    "used_designators": "#FLG1-7,#PWR1-64,C1-11,D1,H1-16,J3-14,R1-12,TP1-15,U1-6",
     "variants": []
   },
   "sheets": [
@@ -691,7 +691,15 @@
     ],
     [
       "1443e1f4-8306-461e-b002-5d6db02e6cf9",
-      "MT_driver"
+      "MT_driver_x"
+    ],
+    [
+      "18437489-37de-45e6-a80a-8865eaba44d0",
+      "MT_driver_y"
+    ],
+    [
+      "bdab3092-4df9-4490-ad28-fb1abf098438",
+      "MT_driver_z"
     ],
     [
       "c6df210f-c7e2-45da-9506-0366f9d15638",
